@@ -19,4 +19,4 @@ def receive_data():
     return jsonify({"status": "success", "temperature": temperature, "humidity": humidity}), 200
 
 if __name__ == '_main_':
-    app.run(host='192.168.158.156', port=5000)
+    app.run(host='10.234.1.250', port=5000)
