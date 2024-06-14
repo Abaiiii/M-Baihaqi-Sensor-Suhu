@@ -5,8 +5,8 @@
 #define DHTPIN 32      
 #define DHTTYPE DHT22 
 
-const char* ssid = "ALAMAKKKK";      
-const char* password = "Alamakkkk"; 
+const char* ssid = "Alamakkkk";      
+const char* password = "12345678r"; 
 const char* serverUrl = "http://10.234.1.250/data";
 
 DHT dht(DHTPIN, DHTTYPE);
